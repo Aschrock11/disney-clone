@@ -4,7 +4,7 @@ const Viewers = () => {
   return (
     <Container>
       <Wrap>
-        <img src="/images/images/viewers-disney.png" alt="" />
+        <img src="./images./images/viewers-disney.png" alt="" />
         <video
           autoPlay={true}
           loop={true}
@@ -14,7 +14,7 @@ const Viewers = () => {
         ></video>
       </Wrap>
       <Wrap>
-        <img src="/images/images/viewers-pixar.png" alt="" />
+        <img src="./images./images/viewers-pixar.png" alt="" />
         <video
           autoPlay={true}
           loop={true}
@@ -24,7 +24,7 @@ const Viewers = () => {
         ></video>
       </Wrap>
       <Wrap>
-        <img src="/images/images/viewers-marvel.png" alt="" />
+        <img src="./images./images/viewers-marvel.png" alt="" />
         <video
           autoPlay={true}
           loop={true}
@@ -34,7 +34,7 @@ const Viewers = () => {
         ></video>
       </Wrap>
       <Wrap>
-        <img src="/images/images/viewers-starwars.png" alt="" />
+        <img src="./images./images/viewers-starwars.png" alt="" />
         <video
           autoPlay={true}
           loop={true}
@@ -44,7 +44,7 @@ const Viewers = () => {
         ></video>
       </Wrap>
       <Wrap>
-        <img src="/images/images/viewers-national.png" alt="" />
+        <img src="./images./images/viewers-national.png" alt="" />
         <video
           autoPlay={true}
           loop={true}

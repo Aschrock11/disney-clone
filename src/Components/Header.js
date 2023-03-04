@@ -68,7 +68,7 @@ const Header = (props) => {
   return (
     <Nav>
       <Logo>
-        <img src="/images/images/logo.svg" alt="Disney" />
+        <img src="./images./images/logo.svg" alt="Disney" />
       </Logo>
       {!userName ? (
         <Login onClick={handleAuth}>Login</Login>
@@ -76,27 +76,27 @@ const Header = (props) => {
         <>
           <NavMenu>
             <a href="/home">
-              <img src="/images/images/home-icon.svg" alt="HOME" />
+              <img src="./images./images/home-icon.svg" alt="HOME" />
               <span>HOME</span>
             </a>
             <a href="/search">
-              <img src="/images/images/search-icon.svg" alt="SEARCH" />
+              <img src="./images./images/search-icon.svg" alt="SEARCH" />
               <span>SEARCH</span>
             </a>
             <a href="/watchlist">
-              <img src="/images/images/watchlist-icon.svg" alt="WATCHLIST" />
+              <img src="./images./images/watchlist-icon.svg" alt="WATCHLIST" />
               <span>WATCHLIST</span>
             </a>
             <a href="/originals">
-              <img src="/images/images/original-icon.svg" alt="ORIGINALS" />
+              <img src="./images./images/original-icon.svg" alt="ORIGINALS" />
               <span>ORIGINALS</span>
             </a>
             <a href="/movies">
-              <img src="/images/images/movie-icon.svg" alt="MOVIES" />
+              <img src="./images./images/movie-icon.svg" alt="MOVIES" />
               <span>MOVIES</span>
             </a>
             <a href="/series">
-              <img src="/images/images/series-icon.svg" alt="SERIES" />
+              <img src="./images./images/series-icon.svg" alt="SERIES" />
               <span>SERIES</span>
             </a>
           </NavMenu>
