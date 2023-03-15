@@ -6,19 +6,12 @@ import NewDisney from "./NewDisney";
 import Originals from "./Originals";
 import Trending from "./Trending";
 import { useEffect, useRef, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import db from "../firebase";
 import { selectUserName } from "../features/user/userSlice";
-import {
-  collection,
-  getDocs,
-  doc,
-  query,
-  onSnapshot,
-} from "firebase/firestore";
+import { collection, getDocs } from "firebase/firestore";
 
 const Home = (props) => {
-  const dispatch = useDispatch();
   const userName = useSelector(selectUserName);
   const [newDisneys, setNewDisneys] = useState([]);
   const [originals, setOriginals] = useState([]);
@@ -68,7 +61,7 @@ export default Home;
 
 const Container = styled.main`
   position: relative;
-  background: url("./images./images/home-background.png");
+  background: url("./images/images/home-background.png");
   min-height: calc(100vh - 250px);
   overflow-x: hidden;
   display: block;
@@ -76,8 +69,8 @@ const Container = styled.main`
   padding: 0 calc(3.5vw + 5px);
 
   &:after {
-    background: url("./images./images/home-background.png") center center /
-      cover no-repeat fixed;
+    background: url("./images/images/home-background.png") center center / cover
+      no-repeat fixed;
     content: "";
     position: absolute;
     inset: 0px;

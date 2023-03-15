@@ -37,11 +37,11 @@ const Detail = () => {
       <ContentMeta>
         <Controls>
           <Player>
-            <img src=".../images./images/play-icon-black.png" alt="" />
+            <img src="../images/images/play-icon-black.png" alt="" />
             <span>Play</span>
           </Player>
           <Trailer>
-            <img src=".../images./images/play-icon-white.png" alt="" />
+            <img src="../images/images/play-icon-white.png" alt="" />
             <span>Trailer</span>
           </Trailer>
           <Addlist>
@@ -50,7 +50,7 @@ const Detail = () => {
           </Addlist>
           <GroupWatch>
             <div>
-              <img src=".../images./images/group-icon.png" />
+              <img src="../images/images/group-icon.png" />
             </div>
           </GroupWatch>
         </Controls>
